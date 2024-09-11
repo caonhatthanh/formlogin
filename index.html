@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nhật Thanh</title>
+  <link rel="stylesheet" href="./bootstrap.min.css" />
+  <script src="./bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./index.css" />
+  <script src="./jquery-3.7.1.min.js" ></script>
+</head>
+
+<body>
+  <div class="container text-center d-flex justify-content-center align-items-center vh-100">
+    <div class="form">
+      <div class="row">
+        <div class="col-6">
+          <img src="./vector.jpg" alt="Banner" />
+        </div>
+        <div class="col-6">
+          <div class="mb-3">
+            <h2 class="titletaikhoan">Đăng Nhập</h2>
+            <label for="exampleFormControlInput1" class="form-label taikhoan">Tài Khoản</label>
+            <div class="iconchomatkhau">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Username" required />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="pass" class="matkhau">Mật Khẩu</label>
+            <input class="form-control" type="password" placeholder="Password" aria-label="default input example"
+              id="pass" maxlength="18" minlength="8" required>
+            <div class="remember">
+              <input type="checkbox" id="ghinho">
+              <label for="ghinho" class="ghinho">Ghi Nhớ</label>
+              <a class="quenmatkhau" href="quenmatkhau">Quên Mật Khẩu</a>
+            </div>
+            <input type="submit" name="dangnhap" value="Sign In" class="signin">
+            <p class="chuacotaikhoan">Chưa có tài khoản? <a class="dangkyngay" href="dangky">Register</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

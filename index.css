@@ -1,0 +1,94 @@
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    border: 1px solid pink;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    color: pink;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.matkhau {
+    position: relative;
+    margin-left: -65%;
+    margin-bottom: 3%;
+    color: whitesmoke;
+}
+
+.taikhoan {
+    position: relative;
+    margin-left: -65%;
+    color: whitesmoke;
+}
+
+.titletaikhoan {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.signin {
+    width: 100%;
+    margin-top: 8%;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px palevioletred;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.signin:hover {
+    background-color: pink;
+}
+
+.chuacotaikhoan {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 14.5px;
+
+}
+
+.dangkyngay {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dangkyngay:hover {
+    text-decoration: underline;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px; 
+    margin-top: 10px; 
+}
+
+.remember .ghinho {
+    margin-right: 30px;
+}
+
+.remember a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
